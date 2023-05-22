@@ -1,0 +1,115 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.top span{
+  display: block;
+  font-size: 55px;
+  text-shadow: 5px 5px 5px rgb(146, 142, 134);
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  font-size: 2rem;
+  background-color:transparent ;
+  color: rgb(63, 58, 44);
+  border-radius: 2rem;
+  margin: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  border-color: rgba(153, 147, 66, 0.815);
+  box-shadow: 6px 7px 7px 0 rgb(189, 170, 3);
+  padding: 8px;
+}
+
+button:hover{
+  background-color: rgb(180, 180, 132);
+}
+
+
+body {
+  margin: 1rem;
+  background-color: rgb(221, 217, 217);
+}
+
+.top{
+ 
+  text-align: center;
+  background-color: #ecd27ac7;
+  box-shadow: 6px 7px 7px 0 rgb(175, 174, 161);
+  border-radius: 20px;
+  width: 100%;
+  height: 180px;
+  line-height: 90px;
+}
+
+.chart{
+  width: 45%;
+  height: 250px;
+  line-height: 30px;
+  margin: 20px;
+  padding: 4rem 0.5rem 0.5rem;;
+  background-color: #eee;
+}
+
+
+
+main {
+  margin-left: 16rem;
+  padding: 1rem;
+}
+
+details {
+  margin-bottom: 0.5rem;
+}
+
+#select-year {
+  display: flex;
+  justify-content: flex-start;
+}
+
+select {
+  padding: 0.5rem;
+}
+
+.mainWrap{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  box-shadow:  inset 2px 3px 5px 5px rgb(148, 147, 136);
+}
+
+#myMap{
+margin-top: 20px;
+margin-right: 15px;
+}
+
+/* 마커 */
+.maker{
+  width:150px; 
+  text-align:center;
+  padding: 5px 0;
+  font-size:16px;
+  font-weight:bold;
+  color:rgb(53, 52, 52);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* 마커선택후 정보창 */
+.store-info {
+  position: absolute;
+  top: 20px;
+  right: 32px;
+  background-color: rgba(255, 255, 251, 0.815);
+  padding: 17px;
+  border: 1px solid rgba(151, 151, 151, 0.836);
+  border-radius: 10px;
+  box-shadow: 6px 10px 8px 3px rgba(37, 37, 37, 0.685);
+  line-height: 1.7rem;
+  z-index: 10;
+}

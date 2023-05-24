@@ -1,5 +1,5 @@
 {
-   "homepage": "https://dpfls6.github.io/react-project/",
+  "homepage": "https://dpfls6.github.io/react-project/",
   "name": "f-project",
   "version": "0.1.0",
   "private": true,
@@ -15,12 +15,11 @@
     "recharts": "^2.6.2",
     "web-vitals": "^2.1.4"
   },
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
